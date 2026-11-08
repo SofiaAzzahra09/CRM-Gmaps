@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Playwright & Screenshots
+.playwright/
+test_result.png
+debug_*.png
+
+# Output data (abaikan file excel hasil scraping agar data klien tidak bocor ke repo publik)
+hasil_scraping/*.xlsx
+*.xlsx
+!hasil_scraping/.gitkeep
+
+# Logs & OS
+*.log
+.DS_Store
+Thumbs.db
